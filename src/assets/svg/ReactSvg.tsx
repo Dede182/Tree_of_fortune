@@ -1,4 +1,4 @@
-import ten from '../images/symbols/wild-bandio_h_skeleton_head.png'
+import ten from '../symbols/WinWinWon_Fa.png'
 
 interface SymbolSvgProps {
   animate?: boolean;
@@ -6,7 +6,7 @@ interface SymbolSvgProps {
 
 const ReactSvg: React.FC<SymbolSvgProps> = ({ animate = false }) => {
   return (
-    <img src={ten}  width="70px" height="70" alt="" />
+    <img src={ten}  width="50px" height="50" alt="" />
 
     // <svg
     //   aria-hidden={true}

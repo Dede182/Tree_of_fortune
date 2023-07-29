@@ -1,5 +1,5 @@
 import styles from './styles.module.scss';
-import ten from '../../images/symbols/gole2.jpeg'
+import ten from '../../symbols/TreeofFortune_Knot.png'
 
 interface SymbolSvgProps {
   animate?: boolean;
@@ -7,7 +7,7 @@ interface SymbolSvgProps {
 
 const VueSvg: React.FC<SymbolSvgProps> = ({ animate = false }) => {
   return (
-    <img src={ten} className={animate ? styles.icon : ''} width="50px" height="50" alt="" />
+    <img src={ten} className={animate ? styles.icon : ''} width="70px" height="70" alt="" />
 
     // <svg
     //   aria-hidden={true}

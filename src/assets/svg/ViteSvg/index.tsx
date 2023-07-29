@@ -1,5 +1,5 @@
 import styles from './styles.module.scss';
-import ten from '../../images/symbols/gold.jpeg'
+import ten from '../../symbols/GaneshaGold_Ganesha.png'
 
 interface SymbolSvgProps {
   animate?: boolean;

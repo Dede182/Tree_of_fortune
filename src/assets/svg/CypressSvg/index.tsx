@@ -1,5 +1,5 @@
 import styles from './styles.module.scss';
-import tequila from '../../images/symbols/wild-bandito_h_tequila.png'
+import tequila from '../../symbols/GemSaviour_Key.png'
 
 interface SymbolSvgProps {
   animate?: boolean;
@@ -7,7 +7,7 @@ interface SymbolSvgProps {
 
 const CypressSvg: React.FC<SymbolSvgProps> = ({ animate }) => {
   return (
-    <img src={tequila} className={animate ? styles.icon : ''} width="70px" height="70" alt="" />
+    <img src={tequila} className={animate ? styles.icon : ''} width="50px" height="50" alt="" />
 
     // <svg
     //   aria-hidden={true}

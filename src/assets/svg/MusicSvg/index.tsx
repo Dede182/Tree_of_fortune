@@ -1,7 +1,7 @@
 import { State } from '@/store/types';
 import { useSelector } from 'react-redux';
 import styles from './styles.module.scss';
-import ten from '../../images/symbols/wild-bandito_l_j.png'
+import ten from '../../symbols/TreeofFortune_Hongbao.png'
 interface SymbolSvgProps {
   animate?: boolean;
 }
@@ -10,7 +10,7 @@ const MusicSvg = () => {
   const isMusicOn = useSelector((state: State) => state.settings.isMusicOn);
 
   return (
-    <img src={ten} className={styles.icon} width="70px" height="70" alt="" />
+    <img src={ten} className={styles.icon} width="70px" height="70px" alt="" />
 
     // <svg
     //   className={styles.icon}

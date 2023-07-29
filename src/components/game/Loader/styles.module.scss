@@ -9,7 +9,11 @@
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  background: linear-gradient(to bottom, $color-orange, $color-yellow);
+  // background: linear-gradient(to bottom, $color-orange, $color-yellow);
+  background-image: url('/assets/images/background.svg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
  
   &-enter {
     opacity: 0;
@@ -59,7 +63,7 @@
   }
 
   &__progress-wrapper {
-    margin-top: 3rem;
+    // margin-top: 3rem;
     background-color: lighten($color-yellow, 10%);
     color: $color-white;
     border-radius: 2rem;

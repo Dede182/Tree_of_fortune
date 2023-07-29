@@ -41,7 +41,7 @@ button {
   font-family: $font-primary;
   font-size: $font-small;
   position: relative;
-  padding-top:100px;
+  padding-top:20px;
   &--loading {
     visibility: hidden;
   }
@@ -51,6 +51,21 @@ button {
     overflow-y: auto;
     width: 100%;
     z-index: 1;
+  }
+
+  &:before {
+    content: '';
+    background-image: url('/assets/images/background.svg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 0.9;
+    
   }
 }
 
@@ -97,7 +112,7 @@ button {
       left: 0;
       width: 100%;
       height: 100%;
-      opacity: 0.2;
+      opacity: 0.9;
       
     }
   }

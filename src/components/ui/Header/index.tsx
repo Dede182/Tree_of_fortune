@@ -8,6 +8,7 @@ import { ButtonIcon } from '@/components';
 import { JS_SLOTS_URL } from '@/constants';
 import { ToastContext, ToastContextData } from '@/context/ToastContext';
 import { BubblePressSound } from '@/assets/sounds';
+import logo from '../../../assets/logo.png'
 import styles from './styles.module.scss';
 
 const Header: React.FC = () => {
@@ -37,14 +38,14 @@ const Header: React.FC = () => {
 
   return (
     <header className={styles.header}>
-      <h1>{t('header.welcome')}</h1>
-      <ButtonIcon
+     <img src ={ logo }  style={{ width : '220px' }}/>
+      {/* <ButtonIcon
         icon={ShareSvg}
         aria-label={t('header.share')}
         title={t('header.share')}
         buttonSound={isSoundOn ? bubblePressSound : null}
         onClick={share}
-      />
+      /> */}
     </header>
   );
 };

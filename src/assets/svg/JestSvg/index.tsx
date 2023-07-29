@@ -1,5 +1,5 @@
 import styles from './styles.module.scss';
-import guitar from '../../images/symbols/wild-bandito_h_guitar.png'
+import guitar from '../../symbols/GemSaviour_Gems_05.png'
 interface SymbolSvgProps {
   animate?: boolean;
 }
@@ -25,7 +25,7 @@ const JestSvg: React.FC<SymbolSvgProps> = ({ animate }) => {
     //     />
     //   </g>
     // </svg>
-    <img src={guitar} className={animate ? styles.icon : ''} width="70px" height="70" alt="" />
+    <img src={guitar} className={animate ? styles.icon : ''} width="50px" height="50" alt="" />
   );
 };
 

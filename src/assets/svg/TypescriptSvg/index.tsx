@@ -1,5 +1,6 @@
 import styles from './styles.module.scss';
-import ten from '../../images/symbols/dia.png'
+import ten from '../../symbols/WinWinWon_Wang.png'
+
 
 interface SymbolSvgProps {
   animate?: boolean;

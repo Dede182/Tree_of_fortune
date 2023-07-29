@@ -1,5 +1,5 @@
 import styles from './styles.module.scss';
-import ten from '../../images/symbols/wild-bandito_l_q.png'
+import ten from '../../symbols/TreeofFortune_Lantern.png'
 
 interface SymbolSvgProps {
   animate?: boolean;
@@ -7,7 +7,7 @@ interface SymbolSvgProps {
 
 const PixijsSvg: React.FC<SymbolSvgProps> = ({ animate }) => {
   return (
-    <img src={ten}  className={animate ? styles['icon__dot'] : ''} width="50px" height="50" alt="" />
+    <img src={ten}  className={animate ? styles['icon__dot'] : ''} width="70px" height="70px" alt="" />
 
     // <svg
     //   aria-hidden={true}

@@ -1,5 +1,5 @@
 import styles from './styles.module.scss';
-import ten from '../../images/symbols/wild-bandito_l_a.png'
+import ten from '../../symbols/TreeofFortune_Bell.png'
 
 interface SymbolSvgProps {
   animate?: boolean;
@@ -7,7 +7,7 @@ interface SymbolSvgProps {
 
 const MobxSvg: React.FC<SymbolSvgProps> = ({ animate }) => {
   return (
-    <img src={ten} className={animate ? styles.icon : ''} width="70px" height="70" alt="" />
+    <img src={ten} className={animate ? styles.icon : ''} width="70px" height="70px" alt="" />
 
     // <svg
     //   aria-hidden={true}

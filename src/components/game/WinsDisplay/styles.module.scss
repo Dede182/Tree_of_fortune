@@ -4,6 +4,10 @@
   width: 100%;
   margin-bottom: 0.5rem;
 
+  .gem
+  {
+    color :var(--color-extra-pink);
+  }
   h2 {
     font-family: $font-title;
     font-size: $font-huge;

@@ -72,7 +72,7 @@ const Settings: React.FC = () => {
           onClick={onThemeUpdate}
         />
       </div>
-      <Select
+      {/* <Select
         name="language-picker"
         value={currentLanguage}
         label={t('settings.language')}
@@ -81,7 +81,7 @@ const Settings: React.FC = () => {
         options={LOCALES_DATA}
         additionalClass={styles['settings__select']}
         onChange={onLanguageUpdate}
-      />
+      /> */}
     </div>
   );
 };
